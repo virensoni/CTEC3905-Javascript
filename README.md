@@ -17,6 +17,6 @@ This exercise introduces a few fundamental Javascript principles:
 - *event listeners* (for capturing user actions)
 - *DOM manipulation* (changing HTML elements and/or their properties)
 
-Read through the comments in the code and try out the suggestions.
+Read through the comments in the "greetings-comments.js" code and try out the suggestions in "greetings.js".
 
 You can [view this page here](https://ctec3905.github.io/03-lab-javascript-1/).
