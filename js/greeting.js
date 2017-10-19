@@ -1,18 +1,14 @@
 (function(){
+
   let myName = document.getElementById("my-name"); 
   let userName = document.getElementById("user-name"); 
   let getName = document.getElementById("get-name");
-  
-  function PerformGreeting() {
+
+  function PerformGreeting(ev) {
     myName.innerHTML = userName.value;
-    event.preventDefault();
-    return false;
+    ev.preventDefault();
   }
 
-  if (typeof event === "undefined") {
-    getName.onsubmit = PerformGreeting; //Firefox
-  } else {
-    getName.addEventListener("submit", PerformGreeting);
-  }
+  getName.addEventListener("submit", PerformGreeting);
   
 }());
